@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = KinesisCat::VERSION
   spec.authors       = ['Genki Sugawara']
   spec.email         = ['sgwr_dts@yahoo.co.jp']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ''
+  spec.summary       = %q{Amazon Kinesis cli for put JSON data.}
+  spec.description   = %q{Amazon Kinesis cli for put JSON data.}
+  spec.homepage      = 'https://github.com/winebarrel/kinesis_cat'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")

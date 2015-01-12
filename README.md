@@ -2,6 +2,9 @@
 
 TODO: Write a gem description
 
+[![Gem Version](https://badge.fury.io/rb/kinesis_cat.svg)](http://badge.fury.io/rb/kinesis_cat)
+[![Build Status](https://travis-ci.org/winebarrel/kinesis_cat.svg?branch=master)](https://travis-ci.org/winebarrel/kinesis_cat)
+
 ## Installation
 
 Add this line to your application's Gemfile:

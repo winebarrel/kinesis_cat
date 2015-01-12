@@ -3,7 +3,7 @@ describe KinesisCat::Client do
     described_class.new(kinesis, stream_name: stream_name, partition_key: partition_key)
   end
 
-  let(:kinesis) { Aws::Kinesis::Client.new }
+  let(:kinesis) { Aws::Kinesis::Client.new(stub_responses: true) }
   let(:stream_name) { 'STREAM_NAME' }
   let(:partition_key) { nil }
   let(:now) { Time.parse('2015/01/12') }

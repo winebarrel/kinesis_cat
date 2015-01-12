@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```sh
 cat '{"key": "val"}' | kinesis-cat --stream-name my-stream
 ```
 
